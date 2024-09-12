@@ -22,13 +22,17 @@ import Resort from './screens/week3/Resort';
 import Health from './screens/week5/Health';
 import Home from './screens/week6/Home';
 import FlatListExample from './screens/week6/FlatListExample';
+import RootStack from './navigations/RootStack';
 
 export default function App() {
   return (
+    <NavigationContainer>
+      <RootStack />
+    </NavigationContainer>
     // <Welcome />
     // <Ex01/>
     // <Ex02/>
-     <Ex03/>
+     //<Ex03/>
     // <Ex04/>
     // <Ex05/>
     // <Ex06/>
